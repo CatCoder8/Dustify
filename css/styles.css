@@ -46,7 +46,7 @@ p{
     margin-top: 0;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1024px){
 
     body{
         font-size: 2.4rem;
@@ -88,7 +88,7 @@ a{
     transition: margin 0.15s;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1024px){
     .link-arrow{
         font-size: 1.5rem;
     }
@@ -118,7 +118,7 @@ a{
     font-size: 1.6rem;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1024px){
 
 .badge{
     font-size: 1.5rem;
@@ -152,7 +152,7 @@ a{
     margin-bottom: 1rem;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1024px){
     .list--tick .list_item{
         padding-left: 0;
     }
@@ -236,7 +236,7 @@ a{
     color: #fff;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1024px){
     .btn{
         font-size: 1.5rem;
     }
@@ -271,7 +271,7 @@ a{
     margin: 4px;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1024px){
     .input{
         font-size: 1.5rem;
     }
@@ -335,7 +335,7 @@ a{
     margin-bottom: 2rem;
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1024px){
     .plan__name{
         font-size: 1.4rem;
     }
@@ -413,7 +413,7 @@ a{
     bottom: 5px;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1024px){
     .quote{
         font-size: 2rem;
     }
@@ -426,3 +426,21 @@ a{
         font-size: 1.6rem;
     }
 }
+
+/* Grid */
+
+.grid{
+    display: grid;
+}
+
+@media screen and (min-width: 768px){
+    .grid--1x2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: 1024px){
+    .grid--1x2{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
