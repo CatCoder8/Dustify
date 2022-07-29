@@ -656,6 +656,11 @@ body > .card{
     transform: translateY(5px);
 }
 
+.nav__brand img{
+    width: 200px;
+    height: 40px;
+}
+
 @media (min-width: 768px){
     .nav__toggle{
         display: none;
