@@ -627,7 +627,9 @@ body > .card{
     color: #7b858b;
 }
 
-.block--dark h1,h2,h3{
+.block--dark h1,
+.block--dark h2,
+.block--dark h3{
     color: #fff;
 }
 
@@ -642,6 +644,7 @@ body > .card{
 
 .block__header{
     text-align: center;
+    margin-bottom: 4rem
 }
 
 .container{
