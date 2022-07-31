@@ -37,7 +37,7 @@ h1,h2,h3{
 }
 
 h1{
-    font-size: 7rem; 
+    font-size: 6rem; 
 }
 
 h2{
@@ -53,7 +53,7 @@ p{
     margin-top: 0;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 768px){
 
     body{
         font-size: 2.4rem;
@@ -95,7 +95,7 @@ a{
     transition: margin 0.15s;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 768px){
     .link-arrow{
         font-size: 1.5rem;
     }
@@ -125,7 +125,7 @@ a{
     font-size: 1.6rem;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 768px){
 
 .badge{
     font-size: 1.5rem;
@@ -159,7 +159,7 @@ a{
     margin-bottom: 1rem;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 768px){
     .list--tick .list_item{
         padding-left: 0;
     }
@@ -208,7 +208,7 @@ a{
     font-weight: 600;
     margin: 2rem 0;
     outline: 0;
-    padding: 2rem 3rem;
+    padding: 2rem 2vw;
     text-align: center;
     text-transform: uppercase;
     white-space: nowrap;
@@ -218,7 +218,6 @@ a{
 .btn .icon{
     width: 2rem;
     height: 2rem;
-    margin-right: 1rem;
     vertical-align: middle;
 }
 
@@ -270,7 +269,7 @@ a{
     color: #fff;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 768px){
     .btn{
         font-size: 1.5rem;
     }
@@ -302,13 +301,14 @@ a{
     border: 0;
     flex-grow: 1;
     padding: 1.5rem 2rem;
+    width: 0;
 }
 
 .input-group .btn{
     margin: 4px;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 768px){
     .input{
         font-size: 1.5rem;
     }
@@ -356,11 +356,11 @@ a{
     font-size: 6rem;
 }
 
-.plan__bill{
-    font-size: 2.4rem;
+.plan__billing-cycle{
+    font-size: 1.6rem;
     font-weight: 300;
     opacity: 0.8;
-    margin: 1rem;
+    margin-right: 1rem;
 }
 
 .plan__description{
@@ -387,7 +387,7 @@ a{
     display: inline-block;
     position: absolute;
     top: 1px;
-    right: 5%;
+    right: 0;
 }
 
 .plan--popular{
@@ -471,7 +471,7 @@ a{
     bottom: 5px;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 768px){
     .quote{
         font-size: 2rem;
     }
@@ -496,7 +496,7 @@ a{
         grid-template-columns: repeat(2, 1fr);
     }
 }
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 768px){
     .grid--1x3{
         grid-template-columns: repeat(3, 1fr);
     }
@@ -695,12 +695,12 @@ body > .card{
 }
 
 .nav__brand{
-    transform: translateY(5px);
+    transform: translateY(10px);
 }
 
 .nav__brand img{
-    width: 200px;
-    height: 40px;
+    width: 160px;
+    height: 35px;
 }
 
 @media (min-width: 768px){
@@ -711,7 +711,7 @@ body > .card{
     .nav__list{
         width: auto;
         display: flex;
-        font: 1.6rem;
+        font-size: 1.6rem;
         max-height: 100%;
         opacity: 1;
     }
@@ -733,6 +733,10 @@ body > .card{
 
 /* Hero */
 
+/* .hero {
+    padding-top: 0;
+  } */
+  
 .hero__tagline{
     font-size: 2rem;
     color: #b9c3cf;
@@ -745,9 +749,6 @@ body > .card{
 }
 
 @media (min-width: 768px){
-    .hero{
-        padding-top: 0;
-    }
 
     .hero__content{
         text-align: left;
@@ -765,7 +766,8 @@ body > .card{
 
 .block-domain__prices{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    color: var(--color-headings);
+    grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2, 6rem);
     font-size: 2rem;
     font-weight: 600;
