@@ -571,6 +571,7 @@ body > .card{
 
     .callout__content{
         text-align: left;
+        justify-self: start;
     }
 
     .callout .btn{
