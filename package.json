@@ -1,0 +1,23 @@
+{
+  "name": "dustify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CatCoder8/Dustify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CatCoder8/Dustify/issues"
+  },
+  "homepage": "https://github.com/CatCoder8/Dustify#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
