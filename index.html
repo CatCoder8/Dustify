@@ -35,14 +35,15 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header>
       <div class="nav collapsible">
-        <a class="nav__brand" href="/"><img src="images/cat.svg" alt="" /></a>
+        <a aria-label="Dustify" class="nav__brand" href="/"
+          ><img src="images/cat.svg" alt=""
+        /></a>
         <svg class="icon icon--white nav__toggle">
           <use href="images/sprite.svg#menu"></use>
         </svg>
@@ -89,6 +90,7 @@
 
       <div class="input-group">
         <input
+          aria-label="Domain"
           type="text"
           class="input"
           placeholder="Enter domain name here..."
@@ -413,7 +415,7 @@
             <div class="grid grid--1x2">
               <div class="testimonial__image">
                 <img
-                  src="images/testimonial.jpg"
+                  src="images/testimonial.webp"
                   alt="Happy, smiling customer"
                 />
                 <span class="icon-container icon-container--accent">
